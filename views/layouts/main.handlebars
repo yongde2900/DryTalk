@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{!-- /views/layouts/main.handlebars --}}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DryTalk</title>
+    {{!--Include bootstrap style sheet  --}}
+    <link rel="stylesheet" href="/stylesheet/bootstrap.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1 pl-5">Dry Talk</span>
+    </nav>
+    
+    <main class="container">
+        {{{ body }}}
+    </main>
+    {{!-- Include bootstrap javascript --}}
+    <script src="/javascript/jquery-3.5.1.js"></script>
+    <script src="/javascript/popper.min.js"></script>
+    <script src="/javascript/bootstrap.js"></script>
+</body>
+
+</html>
